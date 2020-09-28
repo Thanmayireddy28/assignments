@@ -13,6 +13,12 @@
    background-color: white;
 
  }
+ .content{
+  width: 441px;
+  padding: 21px 71px;
+  text-align: center;
+  font-size: 35px;
+ }
  img{
      height:50px;
      width:50px;
@@ -36,6 +42,7 @@
     text-align: center;
      color: white;
      background-color: orangered;
+     padding: 5px 2px;
  }
  .active {
    background-color: #4CAF50;
@@ -44,8 +51,8 @@
    
      display: grid;
      grid-template-columns: auto auto ;
-     grid-template-rows: 71px 71px;
-     grid-template-columns: 252px 252px;
+     grid-template-rows: 59px 59px;
+     grid-template-columns: 233px 233px;
      grid-gap: 10px;
      background-color :white;
      padding: 10px;
@@ -57,6 +64,7 @@
   border: 1px solid black;
   text-align: center;
   font-size: 30px;}
+
   top-left{position: absolute;
    top: 8px;
    left: 16px;}
@@ -71,8 +79,9 @@
       height: 275px;
       width: 702px;
    }
-   .griditem a{ text-decoration: none;
-
+   .griditem a{ 
+     text-decoration: none;
+font-size: 20px;
    }
    @media only screen and (max-width: 600px) {
       body {
